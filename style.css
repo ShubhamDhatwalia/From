@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: felx;
+    margin-top: 20px;
+    justify-content: center;
+    width: 80%;
+    background-color: rgb(255, 252, 240);
+    margin-left: auto;
+    margin-right: auto;
+}
+.top img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.top{
+    text-align: center;
+}
+.top h1{
+    margin-top: 30px;
+    color: #0070c0;
+    font-weight: bolder;
+}
+.top p{
+    color: #8f8f8f;
+    margin-top: 5px;
+}
+.bottom{
+    margin-top: 40px;
+}
+.bottom h4{
+    margin-left: 42px;
+    color: #3d3c3c;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.bottom .fullName{
+    display: flex;
+    gap: 20px;
+}
+.fullName input{
+    width: 40%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    background-color: #e3f8ff;
+    border: 1px solid #c3e6f1;
+    border-radius: 3px;
+}
+
+.labeling
+{
+    display: flex;
+    gap: 20px;
+}
+.labeling label{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: small;
+    color: #807d7d;
+    width: 40%;
+}
+.dob input{
+    width: 40%;
+    margin: 10px;
+    margin-left: 42px;
+    
+    height: 30px;
+    background-color: #e3f8ff;
+    border: 1px solid #c3e6f1;
+    border-radius: 3px;
+}
+.gender input{
+    margin: 10px;
+    margin-left: 42px;
+    border: 1px solid #c3e6f1;
+    
+}
+
+.grade select{
+    margin: 10px;
+    margin-left: 42px;
+    border: 1px solid #c3e6f1;
+    height: 30px;
+    background-color: #e3f8ff;
+    width: 91%;
+}
+.fullwidth input{
+    margin: 10px;
+    margin-left: 42px;
+    border: 1px solid #c3e6f1;
+    height: 30px;
+    background-color: #e3f8ff;
+    width: 91%;
+    border-radius: 3px;
+}
+.message textarea{
+    margin: 10px;
+    margin-left: 42px;
+    border: 1px solid #c3e6f1;
+    background-color: #e3f8ff;
+    width: 91%;
+}
+
+
+
+.upload input{
+    margin: 10px;
+    margin-left: 42px;
+    border: 1px solid #c3e6f1;
+    background-color: #e3f8ff;
+    width: 87%;
+    height: 30px;
+    padding: 20px;
+    border-radius: 3px;
+}
