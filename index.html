@@ -15,10 +15,14 @@
             <p>This form collects information about the new student, such as the student's past school, age, health status, etc.</p>
         </div>
 
+
+        <form action="#">
+
         <div class="bottom">
             <h4>Student Name</h4>
             <div class="fullName">
-                <input type="text"> <input type="text">
+                <input type="text" pattern="[A-Za-z]+" maxlength="32"> 
+                <input type="text" pattern="[a-zA-Z]+" maxlength="32">
             </div>
 
             <div class="labeling">
@@ -31,22 +35,22 @@
             <h4>DOB</h4>
 
             <div class="dob">
-                <input type="text">
+                <input type="date">
             </div>
             
             <h4>Gender</h4>
 
             <div class="gender">
-                <input type="radio">
+                <input type="radio" name="gender" value="male">
                 <label for="">Male</label>
-                <input type="radio">
+                <input type="radio" name="gender" value="female">
                 <label for="">Female</label>
             </div>
 
             <h4>School Last Attended</h4>
 
             <div class="fullwidth">
-                <input type="text">
+                <input type="text" pattern="[a-zA-Z]+">
             </div>
 
             <h4>Grade that you are applying for</h4>
@@ -62,14 +66,20 @@
             <h4>Parent Name</h4>
 
             <div class="fullName">
-                <input type="text">
-                <input type="text">
+                <input type="text" pattern="[A-Za-z]+" maxlength="32">
+                <input type="text" pattern="[A-Za-z]+" maxlength="32">
+            </div>
+            <div class="labeling">
+
+                <label for="">First Name</label>
+
+                <label for="">Last Name</label>
             </div>
 
             <h4>Phone Number</h4>
 
             <div class="fullwidth">
-                <input type="text">
+                <input type="tel" pattern="[0-9]{10}">
             </div>
 
             <h4>Email
@@ -82,13 +92,13 @@
             <h4>Occupation</h4>
 
             <div class="fullwidth">
-                <input type="text">
+                <input type="text" pattern="[A-Za-z]+">
             </div>
 
             <h4>Any medical condition to mention about the student?</h4>
 
             <div class="message">
-                <textarea name="" id="" cols="100" rows="5"></textarea>
+                <textarea  id="" cols="100" rows="5"></textarea>
             </div>
             <h4>Vaccinations Completed</h4>
 
@@ -115,7 +125,25 @@
             </div>
 
             <h4>Terms and Conditions</h4>
+            
+            <div class="terms">
+                <div class="terms-content">
+                    <p>It is required for the student to clear an entrance test and interview to be admitted to the school.
+                        <br>
+                        <br>
+                        I agree with the terms and conditions of the school and declare that the information provided above is correct.</p>
+                </div>
+            </div>
 
+            <div class="accept">
+                <input type="checkbox" required>
+                <label for=""> I accept the Terms and Conditions.</label>
+            </div>
+
+            <div class="submit">
+                <input type="submit">
+            </div>
+        </form>
             
     </div>
     

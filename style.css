@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(61, 60, 60);
+}
 .container{
     display: felx;
     margin-top: 20px;
+    margin-bottom: 30px;
     justify-content: center;
-    width: 80%;
+    width: 60%;
     background-color: rgb(255, 252, 240);
     margin-left: auto;
     margin-right: auto;
@@ -28,6 +32,8 @@
 .top p{
     color: #8f8f8f;
     margin-top: 5px;
+    margin-left: 42px;
+    margin-right: 42px;
 }
 .bottom{
     margin-top: 40px;
@@ -40,27 +46,28 @@
 }
 .bottom .fullName{
     display: flex;
-    gap: 20px;
+    
 }
 .fullName input{
     width: 40%;
     margin: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 42px;
+    margin-right: 42px;
     height: 30px;
     background-color: #e3f8ff;
     border: 1px solid #c3e6f1;
     border-radius: 3px;
+    padding-left: 5px;
 }
 
 .labeling
 {
     display: flex;
-    gap: 20px;
+    gap: 0px;
 }
 .labeling label{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 42px;
+    margin-right: 42px;
     text-align: left;
     font-size: small;
     color: #807d7d;
@@ -70,7 +77,7 @@
     width: 40%;
     margin: 10px;
     margin-left: 42px;
-    
+    padding-left: 5px;
     height: 30px;
     background-color: #e3f8ff;
     border: 1px solid #c3e6f1;
@@ -79,44 +86,112 @@
 .gender input{
     margin: 10px;
     margin-left: 42px;
-    border: 1px solid #c3e6f1;
-    
 }
 
+.grade{
+    display: flex;
+}
 .grade select{
+    
     margin: 10px;
     margin-left: 42px;
+    margin-right: 42px;
     border: 1px solid #c3e6f1;
     height: 30px;
     background-color: #e3f8ff;
-    width: 91%;
+    width: 90%;
+}
+
+.fullwidth{
+    display: flex;
 }
 .fullwidth input{
     margin: 10px;
     margin-left: 42px;
+    margin-right: 42px;
     border: 1px solid #c3e6f1;
     height: 30px;
     background-color: #e3f8ff;
-    width: 91%;
+    width: 90%;
     border-radius: 3px;
+    padding-left: 5px;
+}
+
+.message{
+    display: flex;
 }
 .message textarea{
     margin: 10px;
     margin-left: 42px;
     border: 1px solid #c3e6f1;
     background-color: #e3f8ff;
-    width: 91%;
+    width: 90%;
+    border-radius: 3px;
+    margin-right: 42px;
+    padding-left: 5px;
 }
 
+.upload{
+    display: flex;
+}
 
 
 .upload input{
     margin: 10px;
     margin-left: 42px;
+    margin-right: 42px;
     border: 1px solid #c3e6f1;
     background-color: #e3f8ff;
-    width: 87%;
+    width: 90%;
     height: 30px;
     padding: 20px;
     border-radius: 3px;
+}
+.terms{
+    display: flex;
+}
+.terms-content{
+    margin: 10px;
+    margin-left: 42px;
+    margin-right: 42px;
+    border: 1px solid #c3e6f1;
+    width: 90%;
+    color: #6b6969;
+    padding: 20px;
+    border-radius: 3px;
+}
+.accept{
+    margin: 10px;
+    margin-left: 42px;
+    margin-right: 42px;
+    border-radius: 3px;
+}
+.accept input{
+    border: #0070c0;
+    width: 15px;
+    height: 15px;
+}
+.accept label{
+    margin-left: 20px;
+}
+.accept input,label:hover{
+    cursor: pointer;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.submit input{
+    padding: 8px;
+    margin-bottom: 20px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #0070c0;
+    border: none;
+    color: white;
+}
+
+.submit input:hover{
+    background-color: green;
 }
